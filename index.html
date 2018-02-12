@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+     <head>
+            
+            
+        <title>
+            Quote Machine
+        </title>
+    </head>
+    <body onload = "newQuote()">
+    <div class="container-fluid">
+        <h1 class="text-center">Amy Poehler Quote Machine</h1>
+       
+        <img class="img-responsive" src="https://i.guim.co.uk/img/media/24dab7dfbedf7816e8f9fe9d2b30b419f8922073/0_0_7179_4307/master/7179.jpg?w=1065&q=55&auto=format&usm=12&fit=max&s=670476bc613e01c0c38894be43bd64a4">
+    
+        <div id = "displayQuote" >
+
+        </div>
+
+        <div class="buttons btn-toolbar">
+            
+                <button class="btn btn-secondary" id = "btnNewQuote" onclick = "newQuote()">
+                    New Quote
+                </button>
+            
+                <button class="btn btn-secondary" id= "btnTweetQuote" onclick = "tweetQuote()">
+                Tweet Quote
+                </button>
+        </div>
+    </div>
+        <script src = "javascript.js"></script>
+    </body>
+</html>

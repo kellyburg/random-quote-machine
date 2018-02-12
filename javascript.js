@@ -21,3 +21,4 @@ function tweetQuote(){
     var tweetLink = 'https://twitter.com/share?text=' + encodeURIComponent(tweetText);
     window.open(tweetLink);
 }
+//this is a comment
